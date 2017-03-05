@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gui.abc.inflater.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_inflate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方法1"/>
+    <Button
+        android:id="@+id/btn_inflate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方法2"/>
+    <Button
+        android:id="@+id/btn_inflate3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方法3"/>
+</LinearLayout>
